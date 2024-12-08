@@ -1,0 +1,76 @@
+{
+    "logo": {
+        "name": "Magaweb2",
+        "img": "",
+        "slogan": "soluções em TI",
+        "footer": "Soluções personalizadas em desenvolvimento de sistemas web e estratégias de marketing digital. Transformamos suas ideias em realidade e impulsionamos o crescimento do seu negócio com tecnologia e criatividade. Estamos aqui para ajudar você a alcançar o sucesso online."
+    },
+    "contact": {
+        "Telefone":{
+            "icon": "PhoneIcon",
+            "value": "62 993852820"
+        }, 
+        "E-mail":{
+            "icon": "MailIcon",
+            "value": "magawebtec@gmail.com"
+        }, 
+        "Endereço":{
+            "icon": "LineChartIcon",
+            "value": "Fazenda Nova Gokula Pindamonhangaba"
+        }
+    },
+    "navbar": [
+        {
+            "label": "Início",
+            "link": "/home"
+        },
+        {
+            "label": "Sobre",
+            "link": "/about"
+        },
+        {
+            "label": "Soluções",
+            "link": "/solucoes"
+        },
+        {
+            "label": "Trabalhos",
+            "link": "/portfolio"
+        },
+        {
+            "label": "Contato",
+            "link": "/contact"
+        }
+    ],
+    "links": [
+        {
+            "label": "Início",
+            "link": "/home"
+        },
+        {
+            "label": "Sobre",
+            "link": "/about"
+        },
+        {
+            "label": "Soluções",
+            "link": "/solucoes"
+        },
+        {
+            "label": "Trabalhos",
+            "link": "/portfolio"
+        },
+        {
+            "label": "Contato",
+            "link": "/contact"
+        }
+    ],
+    "socialmidias": {
+        "instagram": "https://www.instagram.com/marcelomaga108",
+        "facebook": "https://www.facebook.com/marcelomaga108"
+    },
+    "copyright": "© Criado pela Magaweb ",
+    "destaques": {
+        "options": {
+            "delay": 5000
+        }
+    }
+}

@@ -1,0 +1,5 @@
+// ROLLUP_NO_REPLACE 
+ const index = "{\"parsed\":{\"_path\":\"/quem-somos/item1\",\"_dir\":\"quem-somos\",\"_draft\":false,\"_partial\":false,\"_locale\":\"\",\"title\":\"Esse é fidelanti\",\"description\":\"oioioi\",\"body\":{\"type\":\"root\",\"children\":[{\"type\":\"element\",\"tag\":\"p\",\"props\":{},\"children\":[{\"type\":\"text\",\"value\":\"oioioi\"}]},{\"type\":\"element\",\"tag\":\"h1\",\"props\":{\"id\":\"teste\"},\"children\":[{\"type\":\"text\",\"value\":\"teste\"}]},{\"type\":\"element\",\"tag\":\"child-links\",\"props\":{},\"children\":[{\"type\":\"text\",\"value\":\"\\ntestando\\n\\n\"},{\"type\":\"element\",\"tag\":\"p\",\"props\":{},\"children\":[{\"type\":\"text\",\"value\":\"fsd\\nf\"}]}]}],\"toc\":{\"title\":\"\",\"searchDepth\":2,\"depth\":2,\"links\":[]}},\"_type\":\"markdown\",\"_id\":\"content:quem-somos:item1:index.md\",\"_source\":\"content\",\"_file\":\"quem-somos/item1/index.md\",\"_stem\":\"quem-somos/item1/index\",\"_extension\":\"md\"},\"hash\":\"HsdTSHkz1q\"}";
+
+export { index as default };
+//# sourceMappingURL=index4.mjs.map

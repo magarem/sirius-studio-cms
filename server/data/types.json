@@ -1,0 +1,73 @@
+{
+    "page": {
+        "title": {
+            "label": "titulo",
+            "type": "text",
+            "value": ""
+        },
+        "images": {
+            "label": "images",
+            "type": "image-array",
+            "value": []
+        },
+        "imageposition": {
+            "label": "posicao",
+            "type": "text",
+            "value": ""
+        },
+        "order": {
+            "label": "Ordem",
+            "type": "text",
+            "value": ""
+        },
+        "childrens_datatype": {
+            "label": "Tipo de dado",
+            "type": "text",
+            "value": ""
+        }
+    },
+    "services": {
+        "title": {
+            "label": "titulo",
+            "type": "text",
+            "value": ""
+        },
+        "images": {
+            "label": "images",
+            "type": "image-array",
+            "value": []
+        },
+        "fabricante": {
+            "label": "Fabricante",
+            "type": "text",
+            "value": ""
+        },
+        "garantia": {
+            "label": "Tempo de garantia",
+            "type": "text",
+            "value": ""
+        }
+    },
+    "products": {
+        "title": {
+            "label": "titulo",
+            "type": "text",
+            "value": ""
+        },
+        "images": {
+            "label": "images",
+            "type": "image-array",
+            "value": []
+        },
+        "fabricante": {
+            "label": "Fabricante",
+            "type": "text",
+            "value": ""
+        },
+        "garantia": {
+            "label": "Tempo de garantia",
+            "type": "text",
+            "value": ""
+        }
+    }
+}
