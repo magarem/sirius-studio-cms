@@ -1,4 +1,4 @@
-import { defineEventHandler, getQuery } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, getQuery } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
 import { readFile } from 'fs/promises';
 import path from 'path';
 

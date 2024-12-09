@@ -1,37 +1,37 @@
-import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, eventHandler, appendResponseHeader, removeResponseHeader, createError, getResponseHeader, isEvent, createEvent, fetchWithEvent, defineEventHandler, handleCacheHeaders, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, getQuery as getQuery$1, getRequestURL, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import { withQuery, joinURL, decodePath, withLeadingSlash, withoutTrailingSlash, parseURL, withoutBase, getQuery, joinRelativeURL } from 'file:///home/maga/dev/sirius5/node_modules/ufo/dist/index.mjs';
-import { unified } from 'file:///home/maga/dev/sirius5/node_modules/unified/index.js';
-import remarkParse from 'file:///home/maga/dev/sirius5/node_modules/remark-parse/index.js';
-import remark2rehype from 'file:///home/maga/dev/sirius5/node_modules/remark-rehype/index.js';
-import remarkMDC, { parseFrontMatter } from 'file:///home/maga/dev/sirius5/node_modules/remark-mdc/dist/index.mjs';
-import defu, { defuFn, defu as defu$1 } from 'file:///home/maga/dev/sirius5/node_modules/defu/dist/defu.mjs';
-import remarkGFM from 'file:///home/maga/dev/sirius5/node_modules/remark-gfm/index.js';
-import rehypeExternalLinks from 'file:///home/maga/dev/sirius5/node_modules/rehype-external-links/index.js';
-import rehypeSortAttributeValues from 'file:///home/maga/dev/sirius5/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file:///home/maga/dev/sirius5/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file:///home/maga/dev/sirius5/node_modules/rehype-raw/index.js';
-import { detab } from 'file:///home/maga/dev/sirius5/node_modules/detab/index.js';
-import { snakeCase, kebabCase } from 'file:///home/maga/dev/sirius5/node_modules/scule/dist/index.mjs';
-import { normalizeUri } from 'file:///home/maga/dev/sirius5/node_modules/micromark-util-sanitize-uri/index.js';
-import { toString } from 'file:///home/maga/dev/sirius5/node_modules/hast-util-to-string/index.js';
-import Slugger from 'file:///home/maga/dev/sirius5/node_modules/github-slugger/index.js';
-import destr from 'file:///home/maga/dev/sirius5/node_modules/destr/dist/index.mjs';
-import { createHooks } from 'file:///home/maga/dev/sirius5/node_modules/hookable/dist/index.mjs';
-import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/maga/dev/sirius5/node_modules/ofetch/dist/node.mjs';
-import { createCall, createFetch } from 'file:///home/maga/dev/sirius5/node_modules/unenv/runtime/fetch/index.mjs';
-import { klona } from 'file:///home/maga/dev/sirius5/node_modules/klona/dist/index.mjs';
-import { createStorage, defineDriver, prefixStorage } from 'file:///home/maga/dev/sirius5/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file:///home/maga/dev/sirius5/node_modules/unstorage/drivers/fs.mjs';
-import fsDriver from 'file:///home/maga/dev/sirius5/node_modules/unstorage/drivers/fs-lite.mjs';
-import lruCache from 'file:///home/maga/dev/sirius5/node_modules/unstorage/drivers/lru-cache.mjs';
-import { toRouteMatcher, createRouter } from 'file:///home/maga/dev/sirius5/node_modules/radix3/dist/index.mjs';
-import { getContext } from 'file:///home/maga/dev/sirius5/node_modules/unctx/dist/index.mjs';
+import process from 'node:process';globalThis._importMeta_=globalThis._importMeta_||{url:"file:///_entry.js",env:process.env};import { getRequestHeader, splitCookiesString, setResponseStatus, setResponseHeader, send, getRequestHeaders, eventHandler, appendResponseHeader, removeResponseHeader, createError, getResponseHeader, isEvent, createEvent, fetchWithEvent, defineEventHandler, handleCacheHeaders, getResponseStatus, setResponseHeaders, setHeaders, sendRedirect, proxyRequest, getQuery as getQuery$1, getRequestURL, getCookie, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import { withQuery, joinURL, decodePath, withLeadingSlash, withoutTrailingSlash, parseURL, withoutBase, getQuery, joinRelativeURL } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ufo/dist/index.mjs';
+import { unified } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unified/index.js';
+import remarkParse from 'file:///home/maga/dev/sirius-studio-cms/node_modules/remark-parse/index.js';
+import remark2rehype from 'file:///home/maga/dev/sirius-studio-cms/node_modules/remark-rehype/index.js';
+import remarkMDC, { parseFrontMatter } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/remark-mdc/dist/index.mjs';
+import defu, { defuFn, defu as defu$1 } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/defu/dist/defu.mjs';
+import remarkGFM from 'file:///home/maga/dev/sirius-studio-cms/node_modules/remark-gfm/index.js';
+import rehypeExternalLinks from 'file:///home/maga/dev/sirius-studio-cms/node_modules/rehype-external-links/index.js';
+import rehypeSortAttributeValues from 'file:///home/maga/dev/sirius-studio-cms/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file:///home/maga/dev/sirius-studio-cms/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file:///home/maga/dev/sirius-studio-cms/node_modules/rehype-raw/index.js';
+import { detab } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/detab/index.js';
+import { snakeCase, kebabCase } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/scule/dist/index.mjs';
+import { normalizeUri } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/micromark-util-sanitize-uri/index.js';
+import { toString } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/hast-util-to-string/index.js';
+import Slugger from 'file:///home/maga/dev/sirius-studio-cms/node_modules/github-slugger/index.js';
+import destr from 'file:///home/maga/dev/sirius-studio-cms/node_modules/destr/dist/index.mjs';
+import { createHooks } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/hookable/dist/index.mjs';
+import { createFetch as createFetch$1, Headers as Headers$1 } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ofetch/dist/node.mjs';
+import { createCall, createFetch } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unenv/runtime/fetch/index.mjs';
+import { klona } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/klona/dist/index.mjs';
+import { createStorage, defineDriver, prefixStorage } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unstorage/drivers/fs.mjs';
+import fsDriver from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unstorage/drivers/fs-lite.mjs';
+import lruCache from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unstorage/drivers/lru-cache.mjs';
+import { toRouteMatcher, createRouter } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/radix3/dist/index.mjs';
+import { getContext } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unctx/dist/index.mjs';
 import { promises } from 'node:fs';
 import { fileURLToPath } from 'node:url';
-import { dirname, resolve, basename } from 'file:///home/maga/dev/sirius5/node_modules/pathe/dist/index.mjs';
-import { getIcons } from 'file:///home/maga/dev/sirius5/node_modules/@iconify/utils/lib/index.mjs';
-import { hash } from 'file:///home/maga/dev/sirius5/node_modules/ohash/dist/index.mjs';
-import { consola } from 'file:///home/maga/dev/sirius5/node_modules/unenv/runtime/npm/consola.mjs';
+import { dirname, resolve, basename } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/pathe/dist/index.mjs';
+import { getIcons } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/@iconify/utils/lib/index.mjs';
+import { hash } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ohash/dist/index.mjs';
+import { consola } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/unenv/runtime/npm/consola.mjs';
 
 function hasReqHeader(event, name, includes) {
   const value = getRequestHeader(event, name);
@@ -192,7 +192,7 @@ function getAsset (id) {
 
 const METHODS = /* @__PURE__ */ new Set(["HEAD", "GET"]);
 const EncodingMap = { gzip: ".gz", br: ".br" };
-const _xfxt3q = eventHandler((event) => {
+const _oEhCaF = eventHandler((event) => {
   if (event.method && !METHODS.has(event.method)) {
     return;
   }
@@ -502,7 +502,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "3ac4e92a-79e6-4664-85b2-f9d7eca53a65",
+    "buildId": "dbfbd163-ca94-4396-9e95-d411b852831b",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -575,7 +575,7 @@ const _inlineRuntimeConfig = {
     "content": {
       "locales": [],
       "defaultLocale": "",
-      "integrity": 1733660162809,
+      "integrity": 1733713309336,
       "experimental": {
         "stripQueryParameters": false,
         "advanceQuery": false,
@@ -763,7 +763,7 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
-const serverAssets = [{"baseName":"server","dir":"/home/maga/dev/sirius5/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/home/maga/dev/sirius-studio-cms/server/assets"}];
 
 const assets = createStorage();
 
@@ -782,7 +782,7 @@ const normalizeFsKey = item => item.replaceAll(':', '_');
 /**
  * @param {{ base: string }} opts
  */
-const _47home_47maga_47dev_47sirius5_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js = defineDriver((opts) => {
+const _47home_47maga_47dev_47sirius_45studio_45cms_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js = defineDriver((opts) => {
   const fs = fsDriver({ base: opts.base });
   const lru = lruCache({ max: 1000 });
 
@@ -807,14 +807,14 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('internal:nuxt:prerender', _47home_47maga_47dev_47sirius5_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"/home/maga/dev/sirius5/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/home/maga/dev/sirius5/.site-build/cache/nitro/prerender"}));
-storage.mount('data', fsDriver({"driver":"fsLite","base":"/home/maga/dev/sirius5/.data/kv"}));
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/home/maga/dev/sirius5/content","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/home/maga/dev/sirius5/.site-build/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/maga/dev/sirius5","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/maga/dev/sirius5/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/maga/dev/sirius5/.site-build","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/maga/dev/sirius5/.site-build/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('internal:nuxt:prerender', _47home_47maga_47dev_47sirius_45studio_45cms_47node_modules_47nuxt_47dist_47core_47runtime_47nitro_47cache_45driver_46js({"driver":"/home/maga/dev/sirius-studio-cms/node_modules/nuxt/dist/core/runtime/nitro/cache-driver.js","base":"/home/maga/dev/sirius-studio-cms/.site-build/cache/nitro/prerender"}));
+storage.mount('data', fsDriver({"driver":"fsLite","base":"/home/maga/dev/sirius-studio-cms/.data/kv"}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/home/maga/dev/sirius-studio-cms/content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/home/maga/dev/sirius-studio-cms/.site-build/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/maga/dev/sirius-studio-cms","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/home/maga/dev/sirius-studio-cms/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/maga/dev/sirius-studio-cms/.site-build","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/home/maga/dev/sirius-studio-cms/.site-build/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -2023,7 +2023,7 @@ const collections = {
 };
 
 const DEFAULT_ENDPOINT = "https://api.iconify.design";
-const _R6FH0I = defineCachedEventHandler(async (event) => {
+const _4k4pUR = defineCachedEventHandler(async (event) => {
   const url = getRequestURL(event);
   if (!url)
     return createError({ status: 400, message: "Invalid icon request" });
@@ -2073,7 +2073,7 @@ const _R6FH0I = defineCachedEventHandler(async (event) => {
   // 1 week
 });
 
-const _lfhOFJ = defineEventHandler(async (event) => {
+const _arACRi = defineEventHandler(async (event) => {
   const { getContentQuery } = await import('../_/query.mjs');
   const { serverQueryContent } = await import('../_/storage.mjs').then(function (n) { return n.s; });
   const query = getContentQuery(event);
@@ -2104,7 +2104,7 @@ const _lfhOFJ = defineEventHandler(async (event) => {
   return serverQueryContent(event, query).find();
 });
 
-const _rnrfUa = defineEventHandler(async (event) => {
+const _RXxQ9H = defineEventHandler(async (event) => {
   const { getContentIndex } = await import('../_/storage.mjs').then(function (n) { return n.c; });
   const { cacheStorage, serverQueryContent } = await import('../_/storage.mjs').then(function (n) { return n.s; });
   const { content } = useRuntimeConfig();
@@ -2130,7 +2130,7 @@ const getPreview = (event) => {
   return { key };
 };
 
-const _CeHIxu = defineEventHandler(async (event) => {
+const _ENZUSa = defineEventHandler(async (event) => {
   const { getContentQuery } = await import('../_/query.mjs');
   const { cacheStorage, serverQueryContent } = await import('../_/storage.mjs').then(function (n) { return n.s; });
   const { createNav } = await import('../_/navigation.mjs');
@@ -2171,55 +2171,55 @@ const _CeHIxu = defineEventHandler(async (event) => {
   return createNav(contents?.result || contents, configs);
 });
 
-const _lazy_rUupnv = () => import('../routes/api/add-node.mjs');
-const _lazy_c5Lb8k = () => import('../routes/api/compileContent.mjs');
-const _lazy_ayJgEL = () => import('../routes/api/conteudo/_id_.mjs');
-const _lazy_rdkUhL = () => import('../routes/api/findItemByPath.mjs');
-const _lazy_AZouMW = () => import('../routes/api/generate.post.mjs');
-const _lazy_lVwCzu = () => import('../routes/api/get-node.mjs');
-const _lazy_0K1W56 = () => import('../routes/api/getNode.mjs');
-const _lazy_CkrJxx = () => import('../routes/api/getNodeByPath.mjs');
-const _lazy_Esf1eI = () => import('../routes/api/getNodeByPath/_...path_.mjs');
-const _lazy_iB1b1d = () => import('../routes/api/getPage.mjs');
-const _lazy_p60THj = () => import('../routes/api/getRecord.mjs');
-const _lazy_pP7NE0 = () => import('../routes/api/manage-node.mjs');
-const _lazy_y4Ls2u = () => import('../routes/api/manage-sqlite.mjs');
-const _lazy_OrJVDQ = () => import('../routes/api/nodes.mjs');
-const _lazy_etdAVg = () => import('../routes/api/parse-frontmatter.post.mjs');
-const _lazy_xvv1b2 = () => import('../routes/api/save-nodes.post.mjs');
-const _lazy_MDJfNX = () => import('../routes/api/upsert-sqlite.mjs');
-const _lazy_h57u9R = () => import('../routes/api/upsertNode.mjs');
-const _lazy_fxzb4t = () => import('../_/renderer.mjs');
+const _lazy_bvzhkK = () => import('../routes/api/add-node.mjs');
+const _lazy_sZWICL = () => import('../routes/api/compileContent.mjs');
+const _lazy_KQUbUs = () => import('../routes/api/conteudo/_id_.mjs');
+const _lazy_mNmBDs = () => import('../routes/api/findItemByPath.mjs');
+const _lazy_IqMOTj = () => import('../routes/api/generate.post.mjs');
+const _lazy_1cWbe4 = () => import('../routes/api/get-node.mjs');
+const _lazy_Ybt9O9 = () => import('../routes/api/getNode.mjs');
+const _lazy_P7z4yA = () => import('../routes/api/getNodeByPath.mjs');
+const _lazy_KMMdsk = () => import('../routes/api/getNodeByPath/_...path_.mjs');
+const _lazy_Pte2GU = () => import('../routes/api/getPage.mjs');
+const _lazy_WLMzJt = () => import('../routes/api/getRecord.mjs');
+const _lazy_iO7byl = () => import('../routes/api/manage-node.mjs');
+const _lazy_DYdzi3 = () => import('../routes/api/manage-sqlite.mjs');
+const _lazy_F6Wjts = () => import('../routes/api/nodes.mjs');
+const _lazy_AuWgwX = () => import('../routes/api/parse-frontmatter.post.mjs');
+const _lazy_uu7spS = () => import('../routes/api/save-nodes.post.mjs');
+const _lazy_nmkUAi = () => import('../routes/api/upsert-sqlite.mjs');
+const _lazy_WiyjYy = () => import('../routes/api/upsertNode.mjs');
+const _lazy_5DqzJw = () => import('../_/renderer.mjs');
 
 const handlers = [
-  { route: '', handler: _xfxt3q, lazy: false, middleware: true, method: undefined },
-  { route: '/api/add-node', handler: _lazy_rUupnv, lazy: true, middleware: false, method: undefined },
-  { route: '/api/compileContent', handler: _lazy_c5Lb8k, lazy: true, middleware: false, method: undefined },
-  { route: '/api/conteudo/:id', handler: _lazy_ayJgEL, lazy: true, middleware: false, method: undefined },
-  { route: '/api/findItemByPath', handler: _lazy_rdkUhL, lazy: true, middleware: false, method: undefined },
-  { route: '/api/generate', handler: _lazy_AZouMW, lazy: true, middleware: false, method: "post" },
-  { route: '/api/get-node', handler: _lazy_lVwCzu, lazy: true, middleware: false, method: undefined },
-  { route: '/api/getNode', handler: _lazy_0K1W56, lazy: true, middleware: false, method: undefined },
-  { route: '/api/getNodeByPath', handler: _lazy_CkrJxx, lazy: true, middleware: false, method: undefined },
-  { route: '/api/getNodeByPath/**:path', handler: _lazy_Esf1eI, lazy: true, middleware: false, method: undefined },
-  { route: '/api/getPage', handler: _lazy_iB1b1d, lazy: true, middleware: false, method: undefined },
-  { route: '/api/getRecord', handler: _lazy_p60THj, lazy: true, middleware: false, method: undefined },
-  { route: '/api/manage-node', handler: _lazy_pP7NE0, lazy: true, middleware: false, method: undefined },
-  { route: '/api/manage-sqlite', handler: _lazy_y4Ls2u, lazy: true, middleware: false, method: undefined },
-  { route: '/api/nodes', handler: _lazy_OrJVDQ, lazy: true, middleware: false, method: undefined },
-  { route: '/api/parse-frontmatter', handler: _lazy_etdAVg, lazy: true, middleware: false, method: "post" },
-  { route: '/api/save-nodes', handler: _lazy_xvv1b2, lazy: true, middleware: false, method: "post" },
-  { route: '/api/upsert-sqlite', handler: _lazy_MDJfNX, lazy: true, middleware: false, method: undefined },
-  { route: '/api/upsertNode', handler: _lazy_h57u9R, lazy: true, middleware: false, method: undefined },
-  { route: '/api/_nuxt_icon/:collection', handler: _R6FH0I, lazy: false, middleware: false, method: undefined },
-  { route: '/api/_content/query/:qid/**:params', handler: _lfhOFJ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query/:qid', handler: _lfhOFJ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _lfhOFJ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.1733660162809.json', handler: _rnrfUa, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid/**:params', handler: _CeHIxu, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: _CeHIxu, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: _CeHIxu, lazy: false, middleware: false, method: "get" },
-  { route: '/**', handler: _lazy_fxzb4t, lazy: true, middleware: false, method: undefined }
+  { route: '', handler: _oEhCaF, lazy: false, middleware: true, method: undefined },
+  { route: '/api/add-node', handler: _lazy_bvzhkK, lazy: true, middleware: false, method: undefined },
+  { route: '/api/compileContent', handler: _lazy_sZWICL, lazy: true, middleware: false, method: undefined },
+  { route: '/api/conteudo/:id', handler: _lazy_KQUbUs, lazy: true, middleware: false, method: undefined },
+  { route: '/api/findItemByPath', handler: _lazy_mNmBDs, lazy: true, middleware: false, method: undefined },
+  { route: '/api/generate', handler: _lazy_IqMOTj, lazy: true, middleware: false, method: "post" },
+  { route: '/api/get-node', handler: _lazy_1cWbe4, lazy: true, middleware: false, method: undefined },
+  { route: '/api/getNode', handler: _lazy_Ybt9O9, lazy: true, middleware: false, method: undefined },
+  { route: '/api/getNodeByPath', handler: _lazy_P7z4yA, lazy: true, middleware: false, method: undefined },
+  { route: '/api/getNodeByPath/**:path', handler: _lazy_KMMdsk, lazy: true, middleware: false, method: undefined },
+  { route: '/api/getPage', handler: _lazy_Pte2GU, lazy: true, middleware: false, method: undefined },
+  { route: '/api/getRecord', handler: _lazy_WLMzJt, lazy: true, middleware: false, method: undefined },
+  { route: '/api/manage-node', handler: _lazy_iO7byl, lazy: true, middleware: false, method: undefined },
+  { route: '/api/manage-sqlite', handler: _lazy_DYdzi3, lazy: true, middleware: false, method: undefined },
+  { route: '/api/nodes', handler: _lazy_F6Wjts, lazy: true, middleware: false, method: undefined },
+  { route: '/api/parse-frontmatter', handler: _lazy_AuWgwX, lazy: true, middleware: false, method: "post" },
+  { route: '/api/save-nodes', handler: _lazy_uu7spS, lazy: true, middleware: false, method: "post" },
+  { route: '/api/upsert-sqlite', handler: _lazy_nmkUAi, lazy: true, middleware: false, method: undefined },
+  { route: '/api/upsertNode', handler: _lazy_WiyjYy, lazy: true, middleware: false, method: undefined },
+  { route: '/api/_nuxt_icon/:collection', handler: _4k4pUR, lazy: false, middleware: false, method: undefined },
+  { route: '/api/_content/query/:qid/**:params', handler: _arACRi, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query/:qid', handler: _arACRi, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _arACRi, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.1733713309336.json', handler: _RXxQ9H, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid/**:params', handler: _ENZUSa, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _ENZUSa, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _ENZUSa, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_5DqzJw, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {

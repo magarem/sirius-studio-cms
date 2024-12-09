@@ -1,9 +1,9 @@
-import { ref } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
-import { parse } from 'file:///home/maga/dev/sirius5/node_modules/cookie-es/dist/index.mjs';
-import { getRequestHeader, setCookie, getCookie, deleteCookie } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import destr from 'file:///home/maga/dev/sirius5/node_modules/destr/dist/index.mjs';
-import { isEqual } from 'file:///home/maga/dev/sirius5/node_modules/ohash/dist/index.mjs';
-import { klona } from 'file:///home/maga/dev/sirius5/node_modules/klona/dist/index.mjs';
+import { ref } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
+import { parse } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/cookie-es/dist/index.mjs';
+import { getRequestHeader, setCookie, getCookie, deleteCookie } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import destr from 'file:///home/maga/dev/sirius-studio-cms/node_modules/destr/dist/index.mjs';
+import { isEqual } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ohash/dist/index.mjs';
+import { klona } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/klona/dist/index.mjs';
 import { c as useRequestEvent, b as useNuxtApp, a as useRoute } from './server.mjs';
 
 const CookieDefaults = {

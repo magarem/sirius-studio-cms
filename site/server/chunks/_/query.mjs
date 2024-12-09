@@ -1,4 +1,4 @@
-import { createError, getQuery } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
+import { createError, getQuery } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
 
 function jsonParse(value) {
   return JSON.parse(value, regExpReviver);

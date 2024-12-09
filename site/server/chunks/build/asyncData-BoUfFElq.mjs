@@ -1,4 +1,4 @@
-import { ref, shallowRef, toRef, getCurrentInstance, onServerPrefetch, unref } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
+import { ref, shallowRef, toRef, getCurrentInstance, onServerPrefetch, unref } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
 import { b as useNuxtApp, g as asyncDataDefaults, h as createError } from './server.mjs';
 
 const isDefer = (dedupe) => dedupe === "defer" || dedupe === false;

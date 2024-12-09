@@ -1,6 +1,6 @@
 import _sfc_main$1 from './ProseCode-xuPxMa16.mjs';
-import { defineComponent, mergeProps, withCtx, createVNode, renderSlot, useSSRContext } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
-import { ssrRenderComponent, ssrRenderClass, ssrRenderStyle, ssrRenderSlot } from 'file:///home/maga/dev/sirius5/node_modules/vue/server-renderer/index.mjs';
+import { defineComponent, mergeProps, withCtx, createVNode, renderSlot, useSSRContext } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
+import { ssrRenderComponent, ssrRenderClass, ssrRenderStyle, ssrRenderSlot } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/server-renderer/index.mjs';
 
 const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "ProsePre",

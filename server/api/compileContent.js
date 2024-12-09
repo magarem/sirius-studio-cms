@@ -1,6 +1,7 @@
 import Database from "better-sqlite3";
 import fs from "fs";
 import path from "path";
+import { resolve } from 'path';
 // import generateSite from "../../scripts/generate-site";
 
 export default defineEventHandler(async (event) => {
@@ -10,12 +11,17 @@ export default defineEventHandler(async (event) => {
     
     // Caminho do banco de dados SQLite
     // const dbPath = path.resolve("server/data/database.db");
-    const dbPath = path.resolve("/home/maga/dev/sirius5/server/data/database.db");
+    const projectDir = process.cwd();
+
+    // Caminho relativo para o banco de dados
+    const dbPath = resolve(projectDir, 'server', 'data', 'database.db');
+
     const db = new Database(dbPath);
 
     // Caminho para o arquivo nodes.json
     // const nodesPath = path.resolve("server/data/nodes.json");
-    const nodesPath = path.resolve("/home/maga/dev/sirius5/server/data/nodes.json");
+    const nodesPath = resolve(projectDir, 'server', 'data', 'nodes.json');
+    
     const nodes = JSON.parse(fs.readFileSync(nodesPath, "utf-8"));
 
     // Caminho da pasta de saída para os arquivos MD

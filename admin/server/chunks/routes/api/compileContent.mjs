@@ -1,7 +1,7 @@
 import { d as defineEventHandler } from '../../nitro/nitro.mjs';
 import Database from 'better-sqlite3';
 import fs from 'fs';
-import path from 'path';
+import path, { resolve } from 'path';
 import 'unified';
 import 'remark-parse';
 import 'remark-rehype';
@@ -26,9 +26,10 @@ import 'consola/core';
 const compileContent = defineEventHandler(async (event) => {
   try {
     console.log("Iniciando a gera\xE7\xE3o do site...");
-    const dbPath = path.resolve("/home/maga/dev/sirius5/server/data/database.db");
+    const projectDir = process.cwd();
+    const dbPath = resolve(projectDir, "server", "data", "database.db");
     const db = new Database(dbPath);
-    const nodesPath = path.resolve("/home/maga/dev/sirius5/server/data/nodes.json");
+    const nodesPath = resolve(projectDir, "server", "data", "nodes.json");
     const nodes = JSON.parse(fs.readFileSync(nodesPath, "utf-8"));
     const outputPath = path.resolve("content");
     const compileNode = (node, parentPath = "") => {

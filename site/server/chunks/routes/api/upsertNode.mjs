@@ -1,7 +1,7 @@
-import { defineEventHandler, readBody, createError } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, readBody, createError } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
 import fs from 'fs/promises';
 import path from 'path';
-import sqlite3 from 'file:///home/maga/dev/sirius5/node_modules/sqlite3/lib/sqlite3.js';
+import sqlite3 from 'file:///home/maga/dev/sirius-studio-cms/node_modules/sqlite3/lib/sqlite3.js';
 
 const upsertNode = defineEventHandler(async (event) => {
   const body = await readBody(event);

@@ -23,7 +23,7 @@ import '@iconify/utils';
 import 'consola/core';
 
 const generate_post = defineEventHandler(async (event) => {
-  const projectDir = path.resolve("/home/maga/dev/sirius5");
+  const projectDir = path.resolve(process.cwd());
   const generateSite = () => {
     return new Promise((resolve, reject) => {
       exec("npm run generate", { cwd: projectDir }, (error, stdout, stderr) => {

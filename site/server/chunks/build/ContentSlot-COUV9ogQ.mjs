@@ -1,5 +1,5 @@
 import { f as flatUnwrap } from './node-hwMnPqaI.mjs';
-import { defineComponent, h, getCurrentInstance, useSlots, computed, useSSRContext } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
+import { defineComponent, h, getCurrentInstance, useSlots, computed, useSSRContext } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
 
 const _sfc_main$1 = defineComponent({
   name: "MDCSlot",

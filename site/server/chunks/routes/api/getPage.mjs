@@ -1,5 +1,5 @@
-import { defineEventHandler, getQuery, createError } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import Database from 'file:///home/maga/dev/sirius5/node_modules/better-sqlite3/lib/index.js';
+import { defineEventHandler, getQuery, createError } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import Database from 'file:///home/maga/dev/sirius-studio-cms/node_modules/better-sqlite3/lib/index.js';
 
 const getPage = defineEventHandler((event) => {
   const query = getQuery(event);

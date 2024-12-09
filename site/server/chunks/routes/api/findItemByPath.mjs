@@ -1,10 +1,11 @@
-import { defineEventHandler, getQuery } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, getQuery } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
 import { promises } from 'fs';
-import Database from 'file:///home/maga/dev/sirius5/node_modules/better-sqlite3/lib/index.js';
+import Database from 'file:///home/maga/dev/sirius-studio-cms/node_modules/better-sqlite3/lib/index.js';
 import path from 'path';
-import matter from 'file:///home/maga/dev/sirius5/node_modules/gray-matter/index.js';
+import matter from 'file:///home/maga/dev/sirius-studio-cms/node_modules/gray-matter/index.js';
 
 function findItemByPath(nodes, targetPath) {
+  console.log("nodes:", nodes);
   for (const node of nodes) {
     if (node._path === targetPath) {
       return node;
@@ -41,6 +42,7 @@ const findItemByPath$1 = defineEventHandler(async (event) => {
     const jsonTree = JSON.parse(fileContent);
     const db = new Database(dbPath, { readonly: true });
     const item = findItemByPath(jsonTree.children || [], _path);
+    console.log("_path:", _path);
     if (item) {
       const content = getContentFromDatabase(item._id, db) || "";
       const { data: frontmatter, content: markdownContent } = matter(content);

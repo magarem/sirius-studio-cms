@@ -18,11 +18,11 @@ export default defineNuxtConfig(async () => {
     nitro: {
       prerender: {
         ignore: [
-          "/treeview" // Exclui a página /treeview
+          "/admin" // Exclui a página /treeview
         ],
         routes: [
           ...routes,
-          "/api/nodes"
+          isGenerate&&"/api/nodes"
         ] 
       },
       output: {

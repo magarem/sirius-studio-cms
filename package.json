@@ -7,7 +7,10 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "init": "node scripts/init-project.js",
+    "admin": "node admin/server/index.mjs",
+    "site": "npx serve site/public"
   },
   "dependencies": {
     "@nuxt/content": "^2.13.4",

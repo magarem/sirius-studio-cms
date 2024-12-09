@@ -1,7 +1,7 @@
-import { defineEventHandler, readBody } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, readBody } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
 import { promises } from 'fs';
 import { join } from 'path';
-import { generateSlug } from 'file:///home/maga/dev/sirius5/utils/helpers.js';
+import { generateSlug } from 'file:///home/maga/dev/sirius-studio-cms/utils/helpers.js';
 
 const filePath = join(process.cwd(), "public", "data", "nodes.json");
 const sqliteDataSave = async (data) => {

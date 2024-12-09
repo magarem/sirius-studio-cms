@@ -25,6 +25,7 @@ import '@iconify/utils';
 import 'consola/core';
 
 function findItemByPath(nodes, targetPath) {
+  console.log("nodes:", nodes);
   for (const node of nodes) {
     if (node._path === targetPath) {
       return node;
@@ -61,6 +62,7 @@ const findItemByPath$1 = defineEventHandler(async (event) => {
     const jsonTree = JSON.parse(fileContent);
     const db = new Database(dbPath, { readonly: true });
     const item = findItemByPath(jsonTree.children || [], _path);
+    console.log("_path:", _path);
     if (item) {
       const content = getContentFromDatabase(item._id, db) || "";
       const { data: frontmatter, content: markdownContent } = matter(content);

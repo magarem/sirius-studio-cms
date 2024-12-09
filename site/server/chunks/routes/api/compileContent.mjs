@@ -1,14 +1,15 @@
-import { defineEventHandler } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import Database from 'file:///home/maga/dev/sirius5/node_modules/better-sqlite3/lib/index.js';
+import { defineEventHandler } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import Database from 'file:///home/maga/dev/sirius-studio-cms/node_modules/better-sqlite3/lib/index.js';
 import fs from 'fs';
-import path from 'path';
+import path, { resolve } from 'path';
 
 const compileContent = defineEventHandler(async (event) => {
   try {
     console.log("Iniciando a gera\xE7\xE3o do site...");
-    const dbPath = path.resolve("/home/maga/dev/sirius5/server/data/database.db");
+    const projectDir = process.cwd();
+    const dbPath = resolve(projectDir, "server", "data", "database.db");
     const db = new Database(dbPath);
-    const nodesPath = path.resolve("/home/maga/dev/sirius5/server/data/nodes.json");
+    const nodesPath = resolve(projectDir, "server", "data", "nodes.json");
     const nodes = JSON.parse(fs.readFileSync(nodesPath, "utf-8"));
     const outputPath = path.resolve("content");
     const compileNode = (node, parentPath = "") => {

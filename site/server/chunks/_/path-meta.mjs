@@ -1,6 +1,6 @@
-import { pascalCase } from 'file:///home/maga/dev/sirius5/node_modules/scule/dist/index.mjs';
-import slugify from 'file:///home/maga/dev/sirius5/node_modules/slugify/slugify.js';
-import { withLeadingSlash, withoutTrailingSlash } from 'file:///home/maga/dev/sirius5/node_modules/ufo/dist/index.mjs';
+import { pascalCase } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/scule/dist/index.mjs';
+import slugify from 'file:///home/maga/dev/sirius-studio-cms/node_modules/slugify/slugify.js';
+import { withLeadingSlash, withoutTrailingSlash } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ufo/dist/index.mjs';
 
 const defineTransformer = (transformer) => {
   return transformer;

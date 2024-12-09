@@ -1,4 +1,4 @@
-import { defineComponent, h, useSSRContext } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
+import { defineComponent, h, useSSRContext } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
 
 const _sfc_main = defineComponent({
   name: "DocumentDrivenNotFound",

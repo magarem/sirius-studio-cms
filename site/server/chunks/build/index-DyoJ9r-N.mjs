@@ -1,6 +1,6 @@
-import { ref, watchEffect, watch, getCurrentInstance } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
+import { ref, watchEffect, watch, getCurrentInstance } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
 import { i as injectHead, f as resolveUnrefHeadInput } from './server.mjs';
-import { composableNames } from 'file:///home/maga/dev/sirius5/node_modules/@unhead/shared/dist/index.mjs';
+import { composableNames } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/@unhead/shared/dist/index.mjs';
 
 function useHead(input, options = {}) {
   const head = options.head || injectHead();

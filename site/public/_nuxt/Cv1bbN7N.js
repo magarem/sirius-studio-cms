@@ -1,1 +1,0 @@
-import{_ as r,o as s,c as n,d as t,B as l}from"./CJXs7yOK.js";const a={};function d(o,e){return s(),n("div",null,[e[0]||(e[0]=t(" menu ")),l(o.$slots,"default"),e[1]||(e[1]=t(" footer "))])}const u=r(a,[["render",d]]);export{u as default};

@@ -1,5 +1,5 @@
-import { defineComponent, computed, resolveComponent, ref, h } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
-import { hasProtocol, withTrailingSlash, withoutTrailingSlash, joinURL, parseQuery } from 'file:///home/maga/dev/sirius5/node_modules/ufo/dist/index.mjs';
+import { defineComponent, computed, resolveComponent, ref, h } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
+import { hasProtocol, withTrailingSlash, withoutTrailingSlash, joinURL, parseQuery } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ufo/dist/index.mjs';
 import { d as useRouter, r as resolveRouteObject, u as useRuntimeConfig, n as navigateTo, b as useNuxtApp, e as nuxtLinkDefaults } from './server.mjs';
 
 async function preloadRouteComponents(to, router = useRouter()) {

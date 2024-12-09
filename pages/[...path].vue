@@ -14,22 +14,24 @@ const tela = ref([]); //
 const parsedContent = ref([]); // Parsed content with components
 let components_list = [];
 const data = ref(null);
+const currentPath = route.params?.path ? `${route.params?.path.join('/')}` : '';
+
 if (isGenerate.value) {
   console.log("!!!");
   const { data: fetchedData } = await useAsyncData("hello", () =>
-    queryContent(`/${route.params.path?.join("/") || ""}`).findOne()
+    queryContent(`/${currentPath || ""}`).findOne()
   );
   data.value = fetchedData.value;
 
   // Consulta todos os arquivos na mesma pasta
-  const folderPath = `/${route.params.path?.join("/")}`;
+  const folderPath = `/${currentPath}`;
   pathChildrens.value = await queryContent(folderPath)
     .where({ _path: { $ne: data.value._path } }) // Exclui o próprio index.md
     .sort("title", "asc") // Ordena pelo título
     .find();
 
   tela.value = pathChildrens.value.map(item => [item.title, item._path]);
-  console.log(route.params.path?.join("/"));
+  console.log(currentPath);
 } else {
   console.log("build!");
   // Markdown-it configuration
@@ -148,7 +150,8 @@ if (isGenerate.value) {
     try {
       loading.value = true;
       error.value = null;
-      const _path = `/${route.params.path.join("/") || ""}`;
+      const _path = `/${currentPath}`;
+      console.log(1, _path)
       const data = await $fetch(`/api/findItemByPath`, {
         params: { _path }
       });

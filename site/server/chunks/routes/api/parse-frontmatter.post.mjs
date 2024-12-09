@@ -1,5 +1,5 @@
-import { defineEventHandler, readBody } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import yaml from 'file:///home/maga/dev/sirius5/node_modules/js-yaml/dist/js-yaml.mjs';
+import { defineEventHandler, readBody } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import yaml from 'file:///home/maga/dev/sirius-studio-cms/node_modules/js-yaml/dist/js-yaml.mjs';
 
 const parseFrontmatter_post = defineEventHandler(async (event) => {
   const body = await readBody(event);

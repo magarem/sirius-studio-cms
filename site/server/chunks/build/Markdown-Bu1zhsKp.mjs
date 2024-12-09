@@ -1,5 +1,5 @@
 import _sfc_main$1 from './ContentSlot-COUV9ogQ.mjs';
-import { defineComponent, getCurrentInstance, useSlots, computed, useSSRContext } from 'file:///home/maga/dev/sirius5/node_modules/vue/index.mjs';
+import { defineComponent, getCurrentInstance, useSlots, computed, useSSRContext } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/vue/index.mjs';
 import './node-hwMnPqaI.mjs';
 
 const _sfc_main = defineComponent({

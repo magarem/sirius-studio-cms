@@ -1,9 +1,9 @@
-import { defineEventHandler, createError } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
+import { defineEventHandler, createError } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
 import { exec } from 'child_process';
 import path from 'path';
 
 const generate_post = defineEventHandler(async (event) => {
-  const projectDir = path.resolve("/home/maga/dev/sirius5");
+  const projectDir = path.resolve(process.cwd());
   const generateSite = () => {
     return new Promise((resolve, reject) => {
       exec("npm run generate", { cwd: projectDir }, (error, stdout, stderr) => {

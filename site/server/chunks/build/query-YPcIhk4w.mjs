@@ -1,5 +1,5 @@
-import { withBase, withLeadingSlash, joinURL, withoutTrailingSlash } from 'file:///home/maga/dev/sirius5/node_modules/ufo/dist/index.mjs';
-import { hash } from 'file:///home/maga/dev/sirius5/node_modules/ohash/dist/index.mjs';
+import { withBase, withLeadingSlash, joinURL, withoutTrailingSlash } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ufo/dist/index.mjs';
+import { hash } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/ohash/dist/index.mjs';
 import { u as useRuntimeConfig, c as useRequestEvent } from './server.mjs';
 import { u as useContentPreview } from './preview-Bx0ME4K2.mjs';
 

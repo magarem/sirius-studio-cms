@@ -1,5 +1,5 @@
-import { defineEventHandler, readBody } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import sqlite3 from 'file:///home/maga/dev/sirius5/node_modules/sqlite3/lib/sqlite3.js';
+import { defineEventHandler, readBody } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import sqlite3 from 'file:///home/maga/dev/sirius-studio-cms/node_modules/sqlite3/lib/sqlite3.js';
 import { join } from 'path';
 
 const dbPath = join(process.cwd(), "public", "data", "nodes_contents.db");

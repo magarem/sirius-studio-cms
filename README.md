@@ -25,7 +25,18 @@ Certifique-se de ter os seguintes itens instalados em seu ambiente:
 
 ## Como Usar
 
-1. Clone este repositório:
+1. Inicie um novo projeto com o comando:
+   npm run init
+
+2. Para inciar a edição do seu site:
+   npm run build && npm run admin
+
+   Depois de editar clique no botão "publicar site"
+
+3. Para ver o site publicado:
+   npm run site
+
+4. Clone este repositório:
    ```bash
    git clone git@github.com:magarem/sirius-studio-cms.git
    cd sirius-studio-cms

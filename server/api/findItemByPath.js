@@ -11,6 +11,7 @@ import grayMatter from "gray-matter";
  * @returns {Object|null} - O item encontrado ou null se não existir.
  */
 function findItemByPath(nodes, targetPath) {
+  console.log('nodes:', nodes);
   for (const node of nodes) {
     if (node._path === targetPath) {
       return node;
@@ -66,7 +67,7 @@ export default defineEventHandler(async event => {
 
     // Busca o item no JSON
     const item = findItemByPath(jsonTree.children || [], _path);
-
+    console.log('_path:', _path);
     if (item) {
       // Busca o conteúdo do banco de dados e adiciona ao item
       //   item.content = getContentFromDatabase(item._id, db);

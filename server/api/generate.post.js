@@ -3,8 +3,8 @@ import path from "path";
 
 export default defineEventHandler(async (event) => {
   // Caminho do diretório do projeto
-//   const projectDir = path.resolve(process.cwd());
-  const projectDir = path.resolve("/home/maga/dev/sirius5");
+  const projectDir = path.resolve(process.cwd());
+  // const projectDir = path.resolve("/home/maga/dev/sirius5");
 
   // Função para executar o comando de geração do site
   const generateSite = () => {

@@ -1,5 +1,5 @@
-import { defineEventHandler, getQuery, createError } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import sqlite3 from 'file:///home/maga/dev/sirius5/node_modules/sqlite3/lib/sqlite3.js';
+import { defineEventHandler, getQuery, createError } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import sqlite3 from 'file:///home/maga/dev/sirius-studio-cms/node_modules/sqlite3/lib/sqlite3.js';
 import path from 'path';
 
 const getRecord = defineEventHandler(async (event) => {

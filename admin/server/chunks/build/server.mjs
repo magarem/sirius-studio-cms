@@ -594,18 +594,18 @@ const _routes = [
   {
     name: "path",
     path: "/:path(.*)*",
-    component: () => import('./_...path_-COw_1R5F.mjs')
+    component: () => import('./_...path_-CIbnhzBl.mjs')
+  },
+  {
+    name: "admin",
+    path: "/admin",
+    meta: __nuxt_page_meta || {},
+    component: () => import('./index-DZbjFcsG.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-DexdxHGE.mjs')
-  },
-  {
-    name: "treeview",
-    path: "/treeview",
-    meta: __nuxt_page_meta || {},
-    component: () => import('./treeview-CAjObUR3.mjs')
+    component: () => import('./index-DArlEBpI.mjs')
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -948,7 +948,7 @@ const LazyAviso = defineAsyncComponent(() => import('./Aviso-BcFmrW7Y.mjs').then
 const LazyChildLinks = defineAsyncComponent(() => import('./ChildLinks-jCN6gek3.mjs').then((r) => r["default"] || r.default || r));
 const LazyContentDoc = defineAsyncComponent(() => import('./ContentDoc-VcN4mNIm.mjs').then((r) => r["default"] || r.default || r));
 const LazyContentList = defineAsyncComponent(() => import('./ContentList-CXa6BuXg.mjs').then((r) => r["default"] || r.default || r));
-const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-BGC9oWQb.mjs').then((r) => r["default"] || r.default || r));
+const LazyContentNavigation = defineAsyncComponent(() => import('./ContentNavigation-DJKNjMkJ.mjs').then((r) => r["default"] || r.default || r));
 const LazyContentQuery = defineAsyncComponent(() => import('./ContentQuery-BmJ3gwlK.mjs').then((r) => r["default"] || r.default || r));
 const LazyContentRenderer = defineAsyncComponent(() => import('./ContentRenderer-DNu4jE6i.mjs').then((r) => r["default"] || r.default || r));
 const LazyContentRendererMarkdown = defineAsyncComponent(() => import('./ContentRendererMarkdown-TS2RkINj.mjs').then((r) => r["default"] || r.default || r));

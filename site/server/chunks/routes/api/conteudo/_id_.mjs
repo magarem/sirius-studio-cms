@@ -1,7 +1,7 @@
-import { defineEventHandler } from 'file:///home/maga/dev/sirius5/node_modules/h3/dist/index.mjs';
-import Database from 'file:///home/maga/dev/sirius5/node_modules/better-sqlite3/lib/index.js';
+import { defineEventHandler } from 'file:///home/maga/dev/sirius-studio-cms/node_modules/h3/dist/index.mjs';
+import Database from 'file:///home/maga/dev/sirius-studio-cms/node_modules/better-sqlite3/lib/index.js';
 import { join } from 'path';
-import matter from 'file:///home/maga/dev/sirius5/node_modules/gray-matter/index.js';
+import matter from 'file:///home/maga/dev/sirius-studio-cms/node_modules/gray-matter/index.js';
 
 const _id_ = defineEventHandler((event) => {
   const dbPath = join(process.cwd(), "data", "content.db");
