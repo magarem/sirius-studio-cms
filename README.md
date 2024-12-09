@@ -1,6 +1,6 @@
 # Sirius Studio
 
-Sirius Studio é um CMS (Content Management System) moderno, desenvolvido com **Nuxt3**, projetado para gerenciar conteúdo utilizando **SQLite** e gerar páginas **HTML estáticas**. Ele oferece um fluxo eficiente de edição e publicação, permitindo a execução simultânea do ambiente de edição e da versão final gerada.
+Sirius Studio é um CMS (gerênciador de conteúdo) desenvolvido com **Nuxt3/content**, buscando compor a precisão do banco de dados Sqlite com a versatilidade de arquivos MD com definições livres de parâmetros de frontmatter com tipos de conteúdo pré-definidos.
 
 ---
 
