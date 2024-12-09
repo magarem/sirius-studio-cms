@@ -6,9 +6,9 @@ Sirius Studio é um CMS (Content Management System) moderno, desenvolvido com **
 
 ## Recursos Principais
 
-- **Baseado em Nuxt3**: Aproveita a flexibilidade e o desempenho do Nuxt3 para entregar uma experiência robusta.
+- **Baseado em Nuxt3**: Aproveita a flexibilidade e o desempenho do Nuxt3/Content.
 - **SQLite para Gerenciamento de Conteúdo**: Simples de configurar, permitindo que o conteúdo seja gerenciado com eficiência.
-- **Geração de Páginas Estáticas**: Converte o conteúdo em um site rápido e seguro com páginas HTML estáticas.
+- **Geração de Páginas Estáticas**: Converte o conteúdo em um site rápido e seguro com páginas HTML estáticas (npm run generate)
 - **Execução Lado a Lado**: Rode o ambiente de edição (`npm run build`) e visualize o site compilado (`npm run generate`) ao mesmo tempo.
 
 ---
@@ -27,5 +27,5 @@ Certifique-se de ter os seguintes itens instalados em seu ambiente:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sirius-studio.git
-   cd sirius-studio
+   git clone git@github.com:magarem/sirius-studio-cms.git
+   cd sirius-studio-cms
