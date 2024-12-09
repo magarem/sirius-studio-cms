@@ -1,75 +1,31 @@
-# Nuxt Minimal Starter
+# Sirius Studio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Sirius Studio é um CMS (Content Management System) moderno, desenvolvido com **Nuxt3**, projetado para gerenciar conteúdo utilizando **SQLite** e gerar páginas **HTML estáticas**. Ele oferece um fluxo eficiente de edição e publicação, permitindo a execução simultânea do ambiente de edição e da versão final gerada.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## Recursos Principais
 
-```bash
-# npm
-npm install
+- **Baseado em Nuxt3**: Aproveita a flexibilidade e o desempenho do Nuxt3 para entregar uma experiência robusta.
+- **SQLite para Gerenciamento de Conteúdo**: Simples de configurar, permitindo que o conteúdo seja gerenciado com eficiência.
+- **Geração de Páginas Estáticas**: Converte o conteúdo em um site rápido e seguro com páginas HTML estáticas.
+- **Execução Lado a Lado**: Rode o ambiente de edição (`npm run build`) e visualize o site compilado (`npm run generate`) ao mesmo tempo.
 
-# pnpm
-pnpm install
+---
 
-# yarn
-yarn install
+## Pré-requisitos
 
-# bun
-bun install
-```
+Certifique-se de ter os seguintes itens instalados em seu ambiente:
 
-## Development Server
+- Node.js (v16 ou superior)
+- NPM (ou Yarn)
+- SQLite
 
-Start the development server on `http://localhost:3000`:
+---
 
-```bash
-# npm
-npm run dev
+## Como Usar
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/sirius-studio.git
+   cd sirius-studio
