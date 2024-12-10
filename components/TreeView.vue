@@ -11,7 +11,7 @@
             :style="{ paddingLeft: `${level * 7}px` }"
             _class="p-2 border mb-1 bg-gray-800 text-white rounded"
         >
-            <div class="flex items-center space-x-2 hover:bg-gray-100 p-1 rounded cursor-pointer"
+            <div class="flex items-center space-x-2 hover:bg-slate-700 p-1 rounded cursor-pointer"
                 @click="toggleNode(node?._id, node)">
                 <!-- Expand/Collapse Icon -->
                 <span v-if="node?.children && node?.children.length" class="text-blue-500">
@@ -20,6 +20,7 @@
                 <span v-else class="text-gray-400">•</span>
                 <!-- Node Label -->
                 <span
+                class=" text-white"
                     :class="{ 'font-bold text-black': node?._type === 'folder', 'text-gray-700': node?._type === 'page' }">
                     {{ node?.label }}
                 </span>
