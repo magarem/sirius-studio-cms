@@ -1,6 +1,5 @@
 # Nuxt dev/build outputs
 .output
-admin
 site
 .site-build
 .admin-build
